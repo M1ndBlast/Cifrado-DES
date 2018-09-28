@@ -1,0 +1,31 @@
+html, body {
+  padding: 1vmin;
+  margin: 0;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+.half
+{
+    display: inline-block;
+    height: 100%;
+    width: 49.5%;
+}
+.container
+{
+    display: inline-block;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%, 0);
+    width: auto;
+}
+input
+{
+    margin: 1vh 0;
+
+}
+h1
+{
+    display: inline-block;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%, 0);
+}

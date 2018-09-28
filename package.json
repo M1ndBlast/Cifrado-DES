@@ -1,0 +1,23 @@
+{
+  "name": "nodedes",
+  "version": "0.1.0",
+  "description": "Encriptacion y desencriptacion en DES usando nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node",
+    "DES"
+  ],
+  "author": "MindBlast",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "crypto": "^1.0.1",
+    "express": "^4.16.3",
+    "express-fileupload": "^0.4.0",
+    "fs": "0.0.1-security",
+    "pug": "^2.0.3"
+  }
+}

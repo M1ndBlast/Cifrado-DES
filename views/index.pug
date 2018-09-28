@@ -1,0 +1,26 @@
+extends layout
+
+block content
+    .half
+        .container
+            h1= 'Encriptar'
+            form(method='post', action='/crypt', enctype='multipart/form-data')
+                input(type='file', id='file', name='file', accept='text/x-txt', required)
+                br
+                input(type='text', name='key', placeholder='Llave (8 caracteres)', maxlength='8', minlength='8', required)
+                br
+                input(type='submit', value='Encriptar')
+
+
+    .half
+        .container
+            h1= 'Desencriptar'
+            form(method='post', action='/decrypt', enctype='multipart/form-data')
+                input(type='file', name='file', required)
+                br
+                input(type='text', name='key', placeholder='Llave (8 caracteres)', maxlength='8', minlength='8', required)
+                br
+                input(type='submit', value='Desencriptar')
+
+block script
+    script(src='/js/validacion.js')
